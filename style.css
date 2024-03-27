@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    width:400px;
+    height: 90vh;
+    text-align: center;
+    /* background-color: red; */
+    margin: 20px auto 50px auto;
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+.text{
+    margin-top: 30px;
+}
+button{
+    width: 200px;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+form{
+    margin-top: 80px;
+    text-align: center;
+    border-radius: 3px;
+    height: 50vh;
+}
+
+/* Get started page */
+.image img{
+    margin: 25% 30%;
+    height: 200px;
+    width: 200px;
+    border: 3px solid gray;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.get-started{
+    margin-top: -50px;
+}
+.get-started p{
+    margin-top: -20px;
+    line-height: 20px;
+}
+/* Homepage */
+.user{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(86, 78, 78);
+    border-bottom: 1px solid rgb(86, 78, 78);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 25px;
+    background-color: rgb(218, 224, 224);
+
+}
+.user .photo{
+    height: 90px;
+    width: 90px;
+    background-image: url(pp.jpg);
+    background-size: contain;
+    /* background-color: red; */
+    border-radius: 50%;
+    margin: 10px;
+    border: 2px solid rgb(103, 95, 95);
+}
+.container{
+    height: 63vh;
+    /* background-color: red; */
+}
+.footer{
+    height: 79px;
+    background-color:rgb(218, 224, 224) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+}
+
